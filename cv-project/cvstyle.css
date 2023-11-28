@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Forum', serif;
+}
+
+
+.hero{
+    background-color: #f08e80;
+    min-height: 90vh;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+.navbar p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar button {
+    background-color: white;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.hero-content{
+    padding: 0 15%;
+}
+
+.tagline{
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.two-columns-section{
+    font-size: 1.5rem;
+}
+
+.two-columns-section > p{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.two-columns-section .skills{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+
+.two-columns-section .skills li{
+    width: 50%;
+    float: left;
+    font-size: 1.25rem;
+    margin: 8px 0px;
+}
+
+.blog-section{
+    padding: 64px 0;
+
+}
+
+.blog-content{
+    padding: 0 15%;
+}
+
+.two-columns-section .blog-post{
+    width: 50%;
+    float: left;
+}
+
+.blog-heading{
+    font-size: 1.5rem;
+}
+
+.blog-text{
+    font-size: 1rem;
+}
+
+.blog-date{
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.event-section{
+    background-color: #ecad7c;
+    padding: 64px 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 64px;
+}
+
+footer img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0 8px;
+}
+
+.footer-content{
+    text-align: center;
+
+}
