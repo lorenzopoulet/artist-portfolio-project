@@ -1,1 +1,1 @@
-# artist-portfolio-project
+# Various HTML/CSS projects
